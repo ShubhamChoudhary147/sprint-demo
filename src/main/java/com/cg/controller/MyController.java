@@ -10,11 +10,16 @@ public class MyController {
 	public String sayHello() {
 		return "Hi! From Shubham...";
 	}
+	
 	@GetMapping("/bye")
 	public String Bye() {
 		return "Goodbye! From Kartik...";
 	}
 
+	@GetMapping("/Amrit")
+	public String sayHelloAmrit() {
+		return "Hi! From Amrit...";
+	}
 
 	@GetMapping("/Tanmay")
 	public String Tanmay_hello(){
