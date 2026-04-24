@@ -10,4 +10,8 @@ public class MyController {
 	public String sayHello() {
 		return "Hi! From Shubham...";
 	}
+	@GetMapping("/bye")
+	public String Bye() {
+		return "Goodbye! From Kartik...";
+	}
 }
