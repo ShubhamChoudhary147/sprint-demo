@@ -6,19 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 	
-	@GetMapping("/")
-	public String sayHello() {
+	@GetMapping("/Yo")
+	public String sayYO() {
 		return "Hi! From Shubham...";
 	}
-	@GetMapping("/bye")
-	public String Bye() {
-		return "Goodbye! From Kartik...";
-	}
-
-
-	@GetMapping("/Tanmay")
-	public String Tanmay_hello(){
-		return "Hi from Tanmay";
-	}
+	
 
 }
