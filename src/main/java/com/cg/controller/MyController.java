@@ -14,4 +14,11 @@ public class MyController {
 	public String Bye() {
 		return "Goodbye! From Kartik...";
 	}
+
+
+	@GetMapping("/Tanmay")
+	public String Tanmay_hello(){
+		return "Hi from Tanmay";
+	}
+
 }
