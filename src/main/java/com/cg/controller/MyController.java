@@ -15,4 +15,10 @@ public class MyController {
 		return "Hi! From Amrit...";
 	}
 
+
+	@GetMapping("/Tanmay")
+	public String Tanmay_hello(){
+		return "Hi from Tanmay";
+	}
+
 }
