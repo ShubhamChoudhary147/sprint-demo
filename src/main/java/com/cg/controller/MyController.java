@@ -25,5 +25,10 @@ public class MyController {
 	public String Tanmay_hello(){
 		return "Hi from Tanmay";
 	}
+	
+	@GetMapping("/Swati")
+	public String Swatiyo() {
+		return "Yo from Swati!";
+	}
 
 }
