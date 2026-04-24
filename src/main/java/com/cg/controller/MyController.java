@@ -11,7 +11,8 @@ public class MyController {
 		return "Hi! From Shubham...";
 	}
 
-	@GetMapping("/Amrit"){
+	@GetMapping("/Amrit")
+	public String sayHelloAmrit() {
 		return "Hi! From Amrit...";
 	}
 
